@@ -1,4 +1,4 @@
-prefix=/home/andrew/NCRL/AprilTag_Localization/devel
+prefix=/home/wolf/nycu_ncrl/AprilTag_Localization/devel
 
 Name: rotors_description
 Description: Description of rotors_description

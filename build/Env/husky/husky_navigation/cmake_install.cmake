@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_navigation
+# Install script for directory: /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrew/NCRL/AprilTag_Localization/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wolf/nycu_ncrl/AprilTag_Localization/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_navigation/catkin_generated/installspace/husky_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_navigation/catkin_generated/installspace/husky_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation/cmake" TYPE FILE FILES
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_navigation/catkin_generated/installspace/husky_navigationConfig.cmake"
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_navigation/catkin_generated/installspace/husky_navigationConfig-version.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_navigation/catkin_generated/installspace/husky_navigationConfig.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_navigation/catkin_generated/installspace/husky_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_navigation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation" TYPE DIRECTORY FILES
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_navigation/config"
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_navigation/launch"
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_navigation/maps"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_navigation/config"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_navigation/launch"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_navigation/maps"
     )
 endif()
 

@@ -11,8 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hybrid_astar.dir/src/dubins.cpp.o"
   "CMakeFiles/hybrid_astar.dir/src/dynamicvoronoi.cpp.o"
   "CMakeFiles/hybrid_astar.dir/src/bucketedqueue.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/hybrid_astar/hybrid_astar.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/hybrid_astar/hybrid_astar"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/hybrid_astar/hybrid_astar.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/hybrid_astar/hybrid_astar"
 )
 
 # Per-language clean rules from dependency scanning.

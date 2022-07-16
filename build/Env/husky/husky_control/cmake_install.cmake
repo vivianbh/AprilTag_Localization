@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_control
+# Install script for directory: /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrew/NCRL/AprilTag_Localization/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wolf/nycu_ncrl/AprilTag_Localization/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,24 +38,24 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_control/catkin_generated/installspace/husky_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_control/catkin_generated/installspace/husky_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_control/cmake" TYPE FILE FILES
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_control/catkin_generated/installspace/husky_controlConfig.cmake"
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_control/catkin_generated/installspace/husky_controlConfig-version.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_control/catkin_generated/installspace/husky_controlConfig.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_control/catkin_generated/installspace/husky_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_control" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_control" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_control/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_control" TYPE DIRECTORY FILES
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_control/config"
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_control/launch"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_control/config"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_control/launch"
     )
 endif()
 

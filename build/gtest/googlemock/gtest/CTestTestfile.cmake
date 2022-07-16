@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googletest
-# Build directory: /home/andrew/NCRL/AprilTag_Localization/build/gtest/googlemock/gtest
+# Build directory: /home/wolf/nycu_ncrl/AprilTag_Localization/build/gtest/googlemock/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

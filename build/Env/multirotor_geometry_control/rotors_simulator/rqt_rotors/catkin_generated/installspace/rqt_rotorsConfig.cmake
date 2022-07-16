@@ -67,14 +67,14 @@ set(rqt_rotors_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_rotors_SOURCE_PREFIX /home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rqt_rotors)
-  set(rqt_rotors_DEVEL_PREFIX /home/andrew/NCRL/AprilTag_Localization/devel)
+  set(rqt_rotors_SOURCE_PREFIX /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rqt_rotors)
+  set(rqt_rotors_DEVEL_PREFIX /home/wolf/nycu_ncrl/AprilTag_Localization/devel)
   set(rqt_rotors_INSTALL_PREFIX "")
   set(rqt_rotors_PREFIX ${rqt_rotors_DEVEL_PREFIX})
 else()
   set(rqt_rotors_SOURCE_PREFIX "")
   set(rqt_rotors_DEVEL_PREFIX "")
-  set(rqt_rotors_INSTALL_PREFIX /home/andrew/NCRL/AprilTag_Localization/install)
+  set(rqt_rotors_INSTALL_PREFIX /home/wolf/nycu_ncrl/AprilTag_Localization/install)
   set(rqt_rotors_PREFIX ${rqt_rotors_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/andrew/NCRL/AprilTag_Localization/install/lib;/home/andrew/NCRL/AprilTag_Localization/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/wolf/nycu_ncrl/AprilTag_Localization/install/lib;/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

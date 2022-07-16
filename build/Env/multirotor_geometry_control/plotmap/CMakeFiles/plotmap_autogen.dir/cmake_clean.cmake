@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "plotmaplib_autogen"
-  "CMakeFiles/plotmaplib_autogen.dir/AutogenOldSettings.cmake"
   "qpsolver_autogen"
   "CMakeFiles/qpsolver_autogen.dir/AutogenOldSettings.cmake"
-  "plotmap_autogen"
-  "CMakeFiles/plotmap_autogen.dir/AutogenOldSettings.cmake"
+  "plotmaplib_autogen"
+  "CMakeFiles/plotmaplib_autogen.dir/AutogenOldSettings.cmake"
   "plot_rviz_autogen"
   "CMakeFiles/plot_rviz_autogen.dir/AutogenOldSettings.cmake"
+  "plotmap_autogen"
+  "CMakeFiles/plotmap_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/plotmap_autogen"
 )
 

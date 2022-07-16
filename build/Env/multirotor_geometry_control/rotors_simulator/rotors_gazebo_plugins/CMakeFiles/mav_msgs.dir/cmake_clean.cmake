@@ -89,8 +89,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o"
   "CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o"
   "CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/libmav_msgs.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/libmav_msgs.so"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/libmav_msgs.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/libmav_msgs.so"
 )
 
 # Per-language clean rules from dependency scanning.

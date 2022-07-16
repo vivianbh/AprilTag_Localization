@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_simulator
+# Install script for directory: /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrew/NCRL/AprilTag_Localization/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wolf/nycu_ncrl/AprilTag_Localization/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_simulator" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_simulator" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_simulator/package.xml")
 endif()
 

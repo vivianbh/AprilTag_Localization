@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_comm_generate_messages_cpp"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/include/rotors_comm/WindSpeed.h"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/include/rotors_comm/Octomap.h"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/include/rotors_comm/RecordRosbag.h"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/include/rotors_comm/WindSpeed.h"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/include/rotors_comm/Octomap.h"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/include/rotors_comm/RecordRosbag.h"
 )
 
 # Per-language clean rules from dependency scanning.

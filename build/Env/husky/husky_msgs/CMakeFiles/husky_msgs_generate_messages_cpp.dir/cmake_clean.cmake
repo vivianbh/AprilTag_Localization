@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/husky_msgs_generate_messages_cpp"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/include/husky_msgs/HuskyStatus.h"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/include/husky_msgs/HuskyStatus.h"
 )
 
 # Per-language clean rules from dependency scanning.

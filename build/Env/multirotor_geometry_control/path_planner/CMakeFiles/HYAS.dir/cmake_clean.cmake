@@ -10,8 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/HYAS.dir/src/dubins.cpp.o"
   "CMakeFiles/HYAS.dir/src/dynamicvoronoi.cpp.o"
   "CMakeFiles/HYAS.dir/src/bucketedqueue.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/libHYAS.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/libHYAS.so"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/libHYAS.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/libHYAS.so"
 )
 
 # Per-language clean rules from dependency scanning.

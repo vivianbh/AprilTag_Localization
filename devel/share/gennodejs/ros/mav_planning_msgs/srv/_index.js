@@ -1,10 +1,10 @@
 
 "use strict";
 
-let PlannerService = require('./PlannerService.js')
 let PolygonService = require('./PolygonService.js')
+let PlannerService = require('./PlannerService.js')
 
 module.exports = {
-  PlannerService: PlannerService,
   PolygonService: PolygonService,
+  PlannerService: PlannerService,
 };

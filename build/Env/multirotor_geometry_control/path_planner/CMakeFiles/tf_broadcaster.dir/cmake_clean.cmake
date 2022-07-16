@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/hybrid_astar/tf_broadcaster.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/hybrid_astar/tf_broadcaster"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/hybrid_astar/tf_broadcaster.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/hybrid_astar/tf_broadcaster"
 )
 
 # Per-language clean rules from dependency scanning.

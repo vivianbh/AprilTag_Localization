@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/testplot_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/plot.dir/GUI/mainwindow.cpp.o"
   "CMakeFiles/plot.dir/plot_autogen/mocs_compilation.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/libplot.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/libplot.so"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/libplot.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/libplot.so"
 )
 
 # Per-language clean rules from dependency scanning.

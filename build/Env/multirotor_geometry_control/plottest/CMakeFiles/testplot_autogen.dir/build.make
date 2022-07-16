@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/NCRL/AprilTag_Localization/src
+CMAKE_SOURCE_DIR = /home/wolf/nycu_ncrl/AprilTag_Localization/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/NCRL/AprilTag_Localization/build
+CMAKE_BINARY_DIR = /home/wolf/nycu_ncrl/AprilTag_Localization/build
 
 # Utility rule file for testplot_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/andrew/NCRL/AprilTag_Localization/build
 include Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/progress.make
 
 Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andrew/NCRL/AprilTag_Localization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target testplot"
-	cd /home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest && /usr/bin/cmake -E cmake_autogen /home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wolf/nycu_ncrl/AprilTag_Localization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target testplot"
+	cd /home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest && /usr/bin/cmake -E cmake_autogen /home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir Release
 
 testplot_autogen: Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen
 testplot_autogen: Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/build.make
@@ -68,10 +68,10 @@ Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/build: 
 .PHONY : Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/build
 
 Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/clean:
-	cd /home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest && $(CMAKE_COMMAND) -P CMakeFiles/testplot_autogen.dir/cmake_clean.cmake
+	cd /home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest && $(CMAKE_COMMAND) -P CMakeFiles/testplot_autogen.dir/cmake_clean.cmake
 .PHONY : Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/clean
 
 Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/depend:
-	cd /home/andrew/NCRL/AprilTag_Localization/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/NCRL/AprilTag_Localization/src /home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/plottest /home/andrew/NCRL/AprilTag_Localization/build /home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest /home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wolf/nycu_ncrl/AprilTag_Localization/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wolf/nycu_ncrl/AprilTag_Localization/src /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/plottest /home/wolf/nycu_ncrl/AprilTag_Localization/build /home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest /home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Env/multirotor_geometry_control/plottest/CMakeFiles/testplot_autogen.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo
+# Install script for directory: /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrew/NCRL/AprilTag_Localization/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wolf/nycu_ncrl/AprilTag_Localization/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,31 +38,31 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_gazebo/catkin_generated/installspace/husky_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_gazebo/catkin_generated/installspace/husky_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_gazebo/cmake" TYPE FILE FILES
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_gazebo/catkin_generated/installspace/husky_gazeboConfig.cmake"
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/husky/husky_gazebo/catkin_generated/installspace/husky_gazeboConfig-version.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_gazebo/catkin_generated/installspace/husky_gazeboConfig.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/husky/husky_gazebo/catkin_generated/installspace/husky_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_gazebo" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_gazebo" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_gazebo" TYPE DIRECTORY FILES "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo/worlds")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_gazebo" TYPE DIRECTORY FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo/worlds")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_gazebo/launch" TYPE FILE FILES
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/husky_empty_world.launch"
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/husky_playpen.launch"
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/playpen.launch"
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/realsense.launch"
-    "/home/andrew/NCRL/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/spawn_husky.launch"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/husky_empty_world.launch"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/husky_playpen.launch"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/playpen.launch"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/realsense.launch"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/husky/husky_gazebo/launch/spawn_husky.launch"
     )
 endif()
 

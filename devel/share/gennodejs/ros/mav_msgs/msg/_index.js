@@ -1,22 +1,22 @@
 
 "use strict";
 
-let FilteredSensorData = require('./FilteredSensorData.js');
+let RollPitchYawrateThrust = require('./RollPitchYawrateThrust.js');
+let Status = require('./Status.js');
+let AttitudeThrust = require('./AttitudeThrust.js');
 let RateThrust = require('./RateThrust.js');
 let GpsWaypoint = require('./GpsWaypoint.js');
-let Status = require('./Status.js');
+let FilteredSensorData = require('./FilteredSensorData.js');
 let Actuators = require('./Actuators.js');
-let AttitudeThrust = require('./AttitudeThrust.js');
-let RollPitchYawrateThrust = require('./RollPitchYawrateThrust.js');
 let TorqueThrust = require('./TorqueThrust.js');
 
 module.exports = {
-  FilteredSensorData: FilteredSensorData,
+  RollPitchYawrateThrust: RollPitchYawrateThrust,
+  Status: Status,
+  AttitudeThrust: AttitudeThrust,
   RateThrust: RateThrust,
   GpsWaypoint: GpsWaypoint,
-  Status: Status,
+  FilteredSensorData: FilteredSensorData,
   Actuators: Actuators,
-  AttitudeThrust: AttitudeThrust,
-  RollPitchYawrateThrust: RollPitchYawrateThrust,
   TorqueThrust: TorqueThrust,
 };

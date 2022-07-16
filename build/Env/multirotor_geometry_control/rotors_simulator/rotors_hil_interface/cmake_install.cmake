@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface
+# Install script for directory: /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrew/NCRL/AprilTag_Localization/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wolf/nycu_ncrl/AprilTag_Localization/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/catkin_generated/installspace/rotors_hil_interface.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/catkin_generated/installspace/rotors_hil_interface.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_hil_interface/cmake" TYPE FILE FILES
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/catkin_generated/installspace/rotors_hil_interfaceConfig.cmake"
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/catkin_generated/installspace/rotors_hil_interfaceConfig-version.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/catkin_generated/installspace/rotors_hil_interfaceConfig.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/catkin_generated/installspace/rotors_hil_interfaceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_hil_interface" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_hil_interface" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_hil_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/andrew/NCRL/AprilTag_Localization/devel/lib/librotors_hil_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/librotors_hil_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_hil_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_hil_interface.so")
     file(RPATH_CHANGE
@@ -79,12 +79,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_hil_interface/rotors_hil_interface_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_hil_interface" TYPE EXECUTABLE FILES "/home/andrew/NCRL/AprilTag_Localization/devel/lib/rotors_hil_interface/rotors_hil_interface_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_hil_interface" TYPE EXECUTABLE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/rotors_hil_interface/rotors_hil_interface_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_hil_interface/rotors_hil_interface_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_hil_interface/rotors_hil_interface_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_hil_interface/rotors_hil_interface_node"
-         OLD_RPATH "/home/andrew/NCRL/AprilTag_Localization/devel/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_hil_interface/rotors_hil_interface_node")

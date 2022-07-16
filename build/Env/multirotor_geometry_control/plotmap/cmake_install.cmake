@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/plotmap
+# Install script for directory: /home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/plotmap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrew/NCRL/AprilTag_Localization/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wolf/nycu_ncrl/AprilTag_Localization/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plotmap/catkin_generated/installspace/plotmap.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plotmap/catkin_generated/installspace/plotmap.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plotmap/cmake" TYPE FILE FILES
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plotmap/catkin_generated/installspace/plotmapConfig.cmake"
-    "/home/andrew/NCRL/AprilTag_Localization/build/Env/multirotor_geometry_control/plotmap/catkin_generated/installspace/plotmapConfig-version.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plotmap/catkin_generated/installspace/plotmapConfig.cmake"
+    "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/multirotor_geometry_control/plotmap/catkin_generated/installspace/plotmapConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plotmap" TYPE FILE FILES "/home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/plotmap/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plotmap" TYPE FILE FILES "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/plotmap/package.xml")
 endif()
 

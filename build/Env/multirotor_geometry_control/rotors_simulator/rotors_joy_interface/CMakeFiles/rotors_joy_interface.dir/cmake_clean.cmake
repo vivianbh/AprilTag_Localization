@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/rotors_joy_interface/rotors_joy_interface.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/rotors_joy_interface/rotors_joy_interface"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/rotors_joy_interface/rotors_joy_interface.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/rotors_joy_interface/rotors_joy_interface"
 )
 
 # Per-language clean rules from dependency scanning.

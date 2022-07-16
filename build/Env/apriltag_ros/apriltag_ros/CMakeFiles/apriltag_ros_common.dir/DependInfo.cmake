@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrew/NCRL/AprilTag_Localization/src/Env/apriltag_ros/apriltag_ros/src/common_functions.cpp" "/home/andrew/NCRL/AprilTag_Localization/build/Env/apriltag_ros/apriltag_ros/CMakeFiles/apriltag_ros_common.dir/src/common_functions.cpp.o"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/apriltag_ros/apriltag_ros/src/common_functions.cpp" "/home/wolf/nycu_ncrl/AprilTag_Localization/build/Env/apriltag_ros/apriltag_ros/CMakeFiles/apriltag_ros_common.dir/src/common_functions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/andrew/NCRL/AprilTag_Localization/devel/include"
-  "/home/andrew/NCRL/AprilTag_Localization/src/Env/apriltag_ros/apriltag_ros/include"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/include"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/apriltag_ros/apriltag_ros/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv"

@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/testplot_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/bagconv.dir/src/bagconv.cpp.o"
   "CMakeFiles/bagconv.dir/bagconv_autogen/mocs_compilation.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/plottest/bagconv.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/plottest/bagconv"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/plottest/bagconv.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/plottest/bagconv"
 )
 
 # Per-language clean rules from dependency scanning.

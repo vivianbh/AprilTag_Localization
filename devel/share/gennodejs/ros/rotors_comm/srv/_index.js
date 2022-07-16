@@ -1,10 +1,10 @@
 
 "use strict";
 
-let RecordRosbag = require('./RecordRosbag.js')
 let Octomap = require('./Octomap.js')
+let RecordRosbag = require('./RecordRosbag.js')
 
 module.exports = {
-  RecordRosbag: RecordRosbag,
   Octomap: Octomap,
+  RecordRosbag: RecordRosbag,
 };

@@ -1,4 +1,4 @@
-prefix=/home/andrew/NCRL/AprilTag_Localization/devel
+prefix=/home/wolf/nycu_ncrl/AprilTag_Localization/devel
 
 Name: husky_viz
 Description: Description of husky_viz

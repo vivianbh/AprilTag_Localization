@@ -10,8 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/testplot.dir/GUI/qcustomplot.cpp.o"
   "CMakeFiles/testplot.dir/include/rigidbody.cpp.o"
   "CMakeFiles/testplot.dir/testplot_autogen/mocs_compilation.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/plottest/testplot.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/plottest/testplot"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/plottest/testplot.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/plottest/testplot"
 )
 
 # Per-language clean rules from dependency scanning.

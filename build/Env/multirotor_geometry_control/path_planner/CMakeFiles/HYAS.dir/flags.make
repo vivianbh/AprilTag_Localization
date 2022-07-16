@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wall -O3 -DNDEBUG -fPIC
 
 CXX_DEFINES = -DHYAS_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"hybrid_astar\"
 
-CXX_INCLUDES = -I/home/andrew/NCRL/AprilTag_Localization/src/Env/multirotor_geometry_control/path_planner/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/wolf/nycu_ncrl/AprilTag_Localization/src/Env/multirotor_geometry_control/path_planner/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

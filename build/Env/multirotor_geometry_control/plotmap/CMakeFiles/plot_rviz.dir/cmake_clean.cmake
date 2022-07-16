@@ -1,16 +1,16 @@
 file(REMOVE_RECURSE
-  "plotmaplib_autogen"
-  "CMakeFiles/plotmaplib_autogen.dir/AutogenOldSettings.cmake"
   "qpsolver_autogen"
   "CMakeFiles/qpsolver_autogen.dir/AutogenOldSettings.cmake"
-  "plotmap_autogen"
-  "CMakeFiles/plotmap_autogen.dir/AutogenOldSettings.cmake"
+  "plotmaplib_autogen"
+  "CMakeFiles/plotmaplib_autogen.dir/AutogenOldSettings.cmake"
   "plot_rviz_autogen"
   "CMakeFiles/plot_rviz_autogen.dir/AutogenOldSettings.cmake"
+  "plotmap_autogen"
+  "CMakeFiles/plotmap_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/plot_rviz.dir/src/plot_rviz.cpp.o"
   "CMakeFiles/plot_rviz.dir/plot_rviz_autogen/mocs_compilation.cpp.o"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/plotmap/plot_rviz.pdb"
-  "/home/andrew/NCRL/AprilTag_Localization/devel/lib/plotmap/plot_rviz"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/plotmap/plot_rviz.pdb"
+  "/home/wolf/nycu_ncrl/AprilTag_Localization/devel/lib/plotmap/plot_rviz"
 )
 
 # Per-language clean rules from dependency scanning.

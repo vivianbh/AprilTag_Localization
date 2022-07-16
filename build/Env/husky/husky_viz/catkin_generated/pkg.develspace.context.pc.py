@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "husky_viz"
-PROJECT_SPACE_DIR = "/home/andrew/NCRL/AprilTag_Localization/devel"
+PROJECT_SPACE_DIR = "/home/wolf/nycu_ncrl/AprilTag_Localization/devel"
 PROJECT_VERSION = "0.6.2"
