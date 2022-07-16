@@ -1,0 +1,640 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+
+	<model name='tag_bundle1'>
+
+		<static>True</static>
+
+		<link name="tag_0">
+
+			<pose>0 0 0 0 1.5713 1.5713</pose>
+
+			<inertial>
+	        	<mass>0.1</mass>
+
+	        	<inertia>
+					<ixx>0.0166667</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0.0166667</iyy>
+					<iyz>0</iyz>
+					<izz>0.0166667</izz>
+        		</inertia>
+
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+      		</inertial>
+
+			<pose frame=''>0 0 0 0 -0 0</pose>
+			<gravity>1</gravity>
+			<self_collide>0</self_collide>
+			<kinematic>0</kinematic>
+			<enable_wind>0</enable_wind>
+
+			<visual name='visual_0'>
+				<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        	<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <material>
+		        	<lighting>0</lighting>
+		        	
+		        	<script>
+		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
+		        		<name>Apriltag/id0</name>
+		          	</script>
+		          
+		        	<shader type='vertex'>
+		        		<normal_map>__default__</normal_map>
+		          	</shader>
+		          
+		        	<ambient>0.3 0.3 0.3 1</ambient>
+		        	<diffuse>0.7 0.7 0.7 1</diffuse>
+		        	<specular>0.01 0.01 0.01 1</specular>
+		        	<emissive>0 0 0 1</emissive>
+		        </material>
+
+		        <transparency>0</transparency>
+		        <cast_shadows>1</cast_shadows>
+			</visual>
+
+			<collision name='collision_0'>
+				<laser_retro>0</laser_retro>
+        		<max_contacts>10</max_contacts>
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        		<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <surface>
+		        	<friction>
+		            	<ode>
+		            		<mu>1</mu>
+		            		<mu2>1</mu2>
+		            		<fdir1>0 0 0</fdir1>
+		            		<slip1>0</slip1>
+		            		<slip2>0</slip2>
+		            	</ode>
+		            
+		           		<torsional>
+		            		<coefficient>1</coefficient>
+	            			<patch_radius>0</patch_radius>
+	            			<surface_radius>0</surface_radius>
+	            			<use_patch_radius>1</use_patch_radius>
+	            			
+	            			<ode>
+		                		<slip>0</slip>
+		              		</ode>
+		            	</torsional>
+		          	</friction>
+
+		        	<bounce>
+		            	<restitution_coefficient>0</restitution_coefficient>
+		            	<threshold>1e+06</threshold>
+		        	</bounce>
+
+		        	<contact>
+		            	<collide_without_contact>0</collide_without_contact>
+		            	<collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+		            	<collide_bitmask>1</collide_bitmask>
+		            
+		            	<ode>
+		            		<soft_cfm>0</soft_cfm>
+		            		<soft_erp>0.2</soft_erp>
+		            		<kp>1e+13</kp>
+		            		<kd>1</kd>
+		            		<max_vel>0.01</max_vel>
+		            		<min_depth>0</min_depth>
+		            	</ode>
+
+			            <bullet>
+			            	<split_impulse>1</split_impulse>
+			            	<split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+			            	<soft_cfm>0</soft_cfm>
+			            	<soft_erp>0.2</soft_erp>
+			            	<kp>1e+13</kp>
+			            	<kd>1</kd>
+			            </bullet>
+		        	</contact>
+		        </surface>
+		    </collision>
+		</link>
+
+		<link name="tag_1">
+
+			<pose>0.3 -0.3 0 0 1.5713 1.5713</pose>
+
+			<inertial>
+	        	<mass>0.1</mass>
+
+	        	<inertia>
+					<ixx>0.0166667</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0.0166667</iyy>
+					<iyz>0</iyz>
+					<izz>0.0166667</izz>
+        		</inertia>
+
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+      		</inertial>
+
+			<pose frame=''>0 0 0 0 -0 0</pose>
+			<gravity>1</gravity>
+			<self_collide>0</self_collide>
+			<kinematic>0</kinematic>
+			<enable_wind>0</enable_wind>
+
+ 			<visual name='visual_1'>
+				<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        	<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <material>
+		        	<lighting>0</lighting>
+		        	
+		        	<script>
+		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
+		        		<name>Apriltag/id1</name>
+		          	</script>
+		          
+		        	<shader type='vertex'>
+		        		<normal_map>__default__</normal_map>
+		          	</shader>
+		          
+		        	<ambient>0.3 0.3 0.3 1</ambient>
+		        	<diffuse>0.7 0.7 0.7 1</diffuse>
+		        	<specular>0.01 0.01 0.01 1</specular>
+		        	<emissive>0 0 0 1</emissive>
+		        </material>
+
+		        <transparency>0</transparency>
+		        <cast_shadows>1</cast_shadows>
+			</visual>
+
+			<collision name='collision_1'>
+				<laser_retro>0</laser_retro>
+        		<max_contacts>10</max_contacts>
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        		<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <surface>
+		        	<friction>
+		            	<ode>
+		            		<mu>1</mu>
+		            		<mu2>1</mu2>
+		            		<fdir1>0 0 0</fdir1>
+		            		<slip1>0</slip1>
+		            		<slip2>0</slip2>
+		            	</ode>
+		            
+		           		<torsional>
+		            		<coefficient>1</coefficient>
+	            			<patch_radius>0</patch_radius>
+	            			<surface_radius>0</surface_radius>
+	            			<use_patch_radius>1</use_patch_radius>
+	            			
+	            			<ode>
+		                		<slip>0</slip>
+		              		</ode>
+		            	</torsional>
+		          	</friction>
+
+		        	<bounce>
+		            	<restitution_coefficient>0</restitution_coefficient>
+		            	<threshold>1e+06</threshold>
+		        	</bounce>
+
+		        	<contact>
+		            	<collide_without_contact>0</collide_without_contact>
+		            	<collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+		            	<collide_bitmask>1</collide_bitmask>
+		            
+		            	<ode>
+		            		<soft_cfm>0</soft_cfm>
+		            		<soft_erp>0.2</soft_erp>
+		            		<kp>1e+13</kp>
+		            		<kd>1</kd>
+		            		<max_vel>0.01</max_vel>
+		            		<min_depth>0</min_depth>
+		            	</ode>
+
+			            <bullet>
+			            	<split_impulse>1</split_impulse>
+			            	<split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+			            	<soft_cfm>0</soft_cfm>
+			            	<soft_erp>0.2</soft_erp>
+			            	<kp>1e+13</kp>
+			            	<kd>1</kd>
+			            </bullet>
+		        	</contact>
+		        </surface>
+		    </collision>
+		</link>
+
+		<link name="tag_2">
+
+			<pose>0.3 0.3 0 0 1.5713 1.5713</pose>
+
+			<inertial>
+	        	<mass>0.1</mass>
+
+	        	<inertia>
+					<ixx>0.0166667</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0.0166667</iyy>
+					<iyz>0</iyz>
+					<izz>0.0166667</izz>
+        		</inertia>
+
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+      		</inertial>
+
+			<pose frame=''>0 0 0 0 -0 0</pose>
+			<gravity>1</gravity>
+			<self_collide>0</self_collide>
+			<kinematic>0</kinematic>
+			<enable_wind>0</enable_wind>
+
+			<visual name='visual_2'>
+				<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        	<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <material>
+		        	<lighting>0</lighting>
+		        	
+		        	<script>
+		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
+		        		<name>Apriltag/id2</name>
+		          	</script>
+		          
+		        	<shader type='vertex'>
+		        		<normal_map>__default__</normal_map>
+		          	</shader>
+		          
+		        	<ambient>0.3 0.3 0.3 1</ambient>
+		        	<diffuse>0.7 0.7 0.7 1</diffuse>
+		        	<specular>0.01 0.01 0.01 1</specular>
+		        	<emissive>0 0 0 1</emissive>
+		        </material>
+
+		        <transparency>0</transparency>
+		        <cast_shadows>1</cast_shadows>
+			</visual>
+
+			<collision name='collision_2'>
+				<laser_retro>0</laser_retro>
+        		<max_contacts>10</max_contacts>
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        		<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <surface>
+		        	<friction>
+		            	<ode>
+		            		<mu>1</mu>
+		            		<mu2>1</mu2>
+		            		<fdir1>0 0 0</fdir1>
+		            		<slip1>0</slip1>
+		            		<slip2>0</slip2>
+		            	</ode>
+		            
+		           		<torsional>
+		            		<coefficient>1</coefficient>
+	            			<patch_radius>0</patch_radius>
+	            			<surface_radius>0</surface_radius>
+	            			<use_patch_radius>1</use_patch_radius>
+	            			
+	            			<ode>
+		                		<slip>0</slip>
+		              		</ode>
+		            	</torsional>
+		          	</friction>
+
+		        	<bounce>
+		            	<restitution_coefficient>0</restitution_coefficient>
+		            	<threshold>1e+06</threshold>
+		        	</bounce>
+
+		        	<contact>
+		            	<collide_without_contact>0</collide_without_contact>
+		            	<collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+		            	<collide_bitmask>1</collide_bitmask>
+		            
+		            	<ode>
+		            		<soft_cfm>0</soft_cfm>
+		            		<soft_erp>0.2</soft_erp>
+		            		<kp>1e+13</kp>
+		            		<kd>1</kd>
+		            		<max_vel>0.01</max_vel>
+		            		<min_depth>0</min_depth>
+		            	</ode>
+
+			            <bullet>
+			            	<split_impulse>1</split_impulse>
+			            	<split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+			            	<soft_cfm>0</soft_cfm>
+			            	<soft_erp>0.2</soft_erp>
+			            	<kp>1e+13</kp>
+			            	<kd>1</kd>
+			            </bullet>
+		        	</contact>
+		        </surface>
+		    </collision>
+		</link>
+
+		<link name="tag_3">
+
+			<pose>-0.3 0.3 0 0 1.5713 1.5713</pose>
+
+			<inertial>
+	        	<mass>0.1</mass>
+
+	        	<inertia>
+					<ixx>0.0166667</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0.0166667</iyy>
+					<iyz>0</iyz>
+					<izz>0.0166667</izz>
+        		</inertia>
+
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+      		</inertial>
+
+			<pose frame=''>0 0 0 0 -0 0</pose>
+			<gravity>1</gravity>
+			<self_collide>0</self_collide>
+			<kinematic>0</kinematic>
+			<enable_wind>0</enable_wind>
+
+			<visual name='visual_3'>
+				<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        	<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <material>
+		        	<lighting>0</lighting>
+		        	
+		        	<script>
+		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
+		        		<name>Apriltag/id3</name>
+		          	</script>
+		          
+		        	<shader type='vertex'>
+		        		<normal_map>__default__</normal_map>
+		          	</shader>
+		          
+		        	<ambient>0.3 0.3 0.3 1</ambient>
+		        	<diffuse>0.7 0.7 0.7 1</diffuse>
+		        	<specular>0.01 0.01 0.01 1</specular>
+		        	<emissive>0 0 0 1</emissive>
+		        </material>
+
+		        <transparency>0</transparency>
+		        <cast_shadows>1</cast_shadows>
+			</visual>
+
+			<collision name='collision_3'>
+				<laser_retro>0</laser_retro>
+        		<max_contacts>10</max_contacts>
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        		<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <surface>
+		        	<friction>
+		            	<ode>
+		            		<mu>1</mu>
+		            		<mu2>1</mu2>
+		            		<fdir1>0 0 0</fdir1>
+		            		<slip1>0</slip1>
+		            		<slip2>0</slip2>
+		            	</ode>
+		            
+		           		<torsional>
+		            		<coefficient>1</coefficient>
+	            			<patch_radius>0</patch_radius>
+	            			<surface_radius>0</surface_radius>
+	            			<use_patch_radius>1</use_patch_radius>
+	            			
+	            			<ode>
+		                		<slip>0</slip>
+		              		</ode>
+		            	</torsional>
+		          	</friction>
+
+		        	<bounce>
+		            	<restitution_coefficient>0</restitution_coefficient>
+		            	<threshold>1e+06</threshold>
+		        	</bounce>
+
+		        	<contact>
+		            	<collide_without_contact>0</collide_without_contact>
+		            	<collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+		            	<collide_bitmask>1</collide_bitmask>
+		            
+		            	<ode>
+		            		<soft_cfm>0</soft_cfm>
+		            		<soft_erp>0.2</soft_erp>
+		            		<kp>1e+13</kp>
+		            		<kd>1</kd>
+		            		<max_vel>0.01</max_vel>
+		            		<min_depth>0</min_depth>
+		            	</ode>
+
+			            <bullet>
+			            	<split_impulse>1</split_impulse>
+			            	<split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+			            	<soft_cfm>0</soft_cfm>
+			            	<soft_erp>0.2</soft_erp>
+			            	<kp>1e+13</kp>
+			            	<kd>1</kd>
+			            </bullet>
+		        	</contact>
+		        </surface>
+		    </collision>
+		</link>
+
+		<link name="tag_4">
+
+			<pose>-0.3 -0.3 0 0 1.5713 1.5713</pose>
+
+			<inertial>
+	        	<mass>0.1</mass>
+
+	        	<inertia>
+					<ixx>0.0166667</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0.0166667</iyy>
+					<iyz>0</iyz>
+					<izz>0.0166667</izz>
+        		</inertia>
+
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+      		</inertial>
+
+			<pose frame=''>0 0 0 0 -0 0</pose>
+			<gravity>1</gravity>
+			<self_collide>0</self_collide>
+			<kinematic>0</kinematic>
+			<enable_wind>0</enable_wind>
+
+			<visual name='visual_4'>
+				<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        	<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <material>
+		        	<lighting>0</lighting>
+		        	
+		        	<script>
+		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
+		        		<name>Apriltag/id4</name>
+		          	</script>
+		          
+		        	<shader type='vertex'>
+		        		<normal_map>__default__</normal_map>
+		          	</shader>
+		          
+		        	<ambient>0.3 0.3 0.3 1</ambient>
+		        	<diffuse>0.7 0.7 0.7 1</diffuse>
+		        	<specular>0.01 0.01 0.01 1</specular>
+		        	<emissive>0 0 0 1</emissive>
+		        </material>
+
+		        <transparency>0</transparency>
+		        <cast_shadows>1</cast_shadows>
+			</visual>
+
+			<collision name='collision_4'>
+				<laser_retro>0</laser_retro>
+        		<max_contacts>10</max_contacts>
+        		<pose frame=''>0 0 0 0 -0 0</pose>
+
+		        <geometry>
+		        	<box>
+		        		<size>0.01 0.3 0.3</size>
+		        	</box>
+		        </geometry>
+
+		        <surface>
+		        	<friction>
+		            	<ode>
+		            		<mu>1</mu>
+		            		<mu2>1</mu2>
+		            		<fdir1>0 0 0</fdir1>
+		            		<slip1>0</slip1>
+		            		<slip2>0</slip2>
+		            	</ode>
+		            
+		           		<torsional>
+		            		<coefficient>1</coefficient>
+	            			<patch_radius>0</patch_radius>
+	            			<surface_radius>0</surface_radius>
+	            			<use_patch_radius>1</use_patch_radius>
+	            			
+	            			<ode>
+		                		<slip>0</slip>
+		              		</ode>
+		            	</torsional>
+		          	</friction>
+
+		        	<bounce>
+		            	<restitution_coefficient>0</restitution_coefficient>
+		            	<threshold>1e+06</threshold>
+		        	</bounce>
+
+		        	<contact>
+		            	<collide_without_contact>0</collide_without_contact>
+		            	<collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+		            	<collide_bitmask>1</collide_bitmask>
+		            
+		            	<ode>
+		            		<soft_cfm>0</soft_cfm>
+		            		<soft_erp>0.2</soft_erp>
+		            		<kp>1e+13</kp>
+		            		<kd>1</kd>
+		            		<max_vel>0.01</max_vel>
+		            		<min_depth>0</min_depth>
+		            	</ode>
+
+			            <bullet>
+			            	<split_impulse>1</split_impulse>
+			            	<split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+			            	<soft_cfm>0</soft_cfm>
+			            	<soft_erp>0.2</soft_erp>
+			            	<kp>1e+13</kp>
+			            	<kd>1</kd>
+			            </bullet>
+		        	</contact>
+		        </surface>
+		    </collision>
+		</link>
+
+		<joint name = "joint_1" type="fixed">
+			<axis xyz="0 0 0" />
+			<parent link="tag_0" />
+			<child link="tag_1" />
+	    </joint>
+
+	    <joint name = "joint_2" type="fixed">
+			<axis xyz="0 0 0" />
+			<parent link="tag_0" />
+			<child link="tag_2" />
+	    </joint>
+
+	    <joint name = "joint_3" type="fixed">
+			<axis xyz="0 0 0" />
+			<parent link="tag_0" />
+			<child link="tag_3" />
+	    </joint>
+
+	    <joint name = "joint_4" type="fixed">
+			<axis xyz="0 0 0" />
+			<parent link="tag_0" />
+			<child link="tag_4" />
+	    </joint>
+
+	</model>
+
+</sdf>
+
