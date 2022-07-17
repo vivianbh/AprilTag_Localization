@@ -1,29 +1,31 @@
+<?xml version="1.0" ?>
 <sdf version='1.6'>
+
   <world name='default'>
 
-<include>
-  <uri>model://tag_bundle1 </uri>
-</include>
+    <include>
+      <uri>model://tag_bundle1 </uri>
+    </include>
 
-<include>
-  <uri>model://tag_bundle3 </uri>
-</include>
+    <include>
+      <uri>model://tag_bundle3 </uri>
+    </include>
 
-<include>
-  <uri>model://tag_bundle5 </uri>
-</include>
+    <include>
+      <uri>model://tag_bundle5 </uri>
+    </include>
 
-<include>
-  <uri>model://tag_bundle2 </uri>
-</include>
+    <include>
+      <uri>model://tag_bundle2 </uri>
+    </include>
 
-<include>
-  <uri>model://tag_bundle4 </uri>
-</include>
+    <include>
+      <uri>model://tag_bundle4 </uri>
+    </include>
 
-<include>
-  <uri>model://tag_bundle6 </uri>
-</include>
+    <include>
+      <uri>model://tag_bundle6 </uri>
+    </include>
 
     <!-- Only one ROS interface plugin is required per world, as any other plugin can connect a Gazebo
          topic to a ROS topic (or vise versa). -->
@@ -152,7 +154,7 @@
               <size>8.2375 0.15 3</size>
             </box>
           </geometry>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
@@ -168,7 +170,7 @@
           </surface>
         </collision>
         <visual name='Wall_5_Visual'>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <geometry>
             <box>
               <size>8.2375 0.15 3</size>
@@ -198,7 +200,7 @@
               <size>19.5759 0.15 3</size>
             </box>
           </geometry>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
@@ -214,7 +216,7 @@
           </surface>
         </collision>
         <visual name='Wall_6_Visual'>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <geometry>
             <box>
               <size>19.5759 0.15 3</size>
@@ -244,7 +246,7 @@
               <size>8.2388 0.15 3</size>
             </box>
           </geometry>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
@@ -260,7 +262,7 @@
           </surface>
         </collision>
         <visual name='Wall_7_Visual'>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <geometry>
             <box>
               <size>8.2388 0.15 3</size>
@@ -283,14 +285,14 @@
         <kinematic>0</kinematic>
       </link>
       
-      <link name='Wall_8'>
+      <!--link name='Wall_8'>
         <collision name='Wall_8_Collision'>
           <geometry>
             <box>
               <size>19.5906 0.15 3</size>
             </box>
           </geometry>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
@@ -306,7 +308,7 @@
           </surface>
         </collision>
         <visual name='Wall_8_Visual'>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 1.5 0 -0 0</pose>
           <geometry>
             <box>
               <size>19.5906 0.15 3</size>
@@ -327,7 +329,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
-      </link>
+      </link -->
       <static>1</static>
     </model>
 
