@@ -19,11 +19,26 @@
 #     {id: ID, size: SIZE, name: NAME},
 #     ...
 #   ]
-#standalone_tags:
-#  [
-#    {id: 0, size: 0.24, name: "tag0"},
-#    {id: 1, size: 0.24, name: "tag1"}
-#  ]
+standalone_tags:
+  [
+    {id: 60, size: 0.24, name: "tag60"},
+    {id: 61, size: 0.24, name: "tag61"},
+    {id: 62, size: 0.24, name: "tag62"},
+    {id: 63, size: 0.24, name: "tag63"},
+    {id: 64, size: 0.24, name: "tag64"},
+    {id: 65, size: 0.24, name: "tag65"},
+    {id: 66, size: 0.24, name: "tag66"},
+    {id: 67, size: 0.24, name: "tag67"},
+    {id: 68, size: 0.24, name: "tag68"},
+    {id: 69, size: 0.24, name: "tag69"},
+    {id: 70, size: 0.24, name: "tag70"},
+    {id: 71, size: 0.24, name: "tag71"},
+    {id: 72, size: 0.24, name: "tag72"},
+    {id: 73, size: 0.24, name: "tag73"},
+    {id: 74, size: 0.24, name: "tag74"},
+    {id: 75, size: 0.24, name: "tag75"},
+    {id: 76, size: 0.24, name: "tag76"},
+  ]
 # ## Tag bundle definitions
 # ### Remarks
 #
@@ -59,7 +74,7 @@
 tag_bundles:
   [
      {
-       name: 'tag_bundles_downward1',
+       name: 'tag_bundles1',
        layout:
          [
            {id: 0, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
@@ -71,7 +86,7 @@ tag_bundles:
      },
 
      {
-       name: 'tag_bundles_forward1',
+       name: 'tag_bundles2',
        layout:
          [
            {id: 5, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
@@ -83,7 +98,7 @@ tag_bundles:
      },
 
      {
-       name: 'tag_bundles_downward2',
+       name: 'tag_bundles3',
        layout:
          [
            {id: 10, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
@@ -95,7 +110,7 @@ tag_bundles:
      },
 
      {
-       name: 'tag_bundles_forward2',
+       name: 'tag_bundles4',
        layout:
          [
            {id: 15, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
@@ -107,7 +122,7 @@ tag_bundles:
      },
 
      {
-       name: 'tag_bundles_downward3',
+       name: 'tag_bundles5',
        layout:
          [
            {id: 20, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
@@ -119,7 +134,7 @@ tag_bundles:
      },
 
      {
-       name: 'tag_bundles_forward3',
+       name: 'tag_bundles6',
        layout:
          [
            {id: 25, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
@@ -127,6 +142,78 @@ tag_bundles:
            {id: 27, size: 0.24, x: 0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 28, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 29, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+         ]
+     }
+
+     {
+       name: 'tag_bundles7',
+       layout:
+         [
+           {id: 30, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 31, size: 0.24, x: 0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 32, size: 0.24, x: 0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 33, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 34, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+         ]
+     }
+
+     {
+       name: 'tag_bundles8',
+       layout:
+         [
+           {id: 35, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 36, size: 0.24, x: 0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 37, size: 0.24, x: 0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 38, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 39, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+         ]
+     }
+
+     {
+       name: 'tag_bundles9',
+       layout:
+         [
+           {id: 40, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 41, size: 0.24, x: 0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 42, size: 0.24, x: 0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 43, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 44, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+         ]
+     }
+
+     {
+       name: 'tag_bundles10',
+       layout:
+         [
+           {id: 45, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 46, size: 0.24, x: 0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 47, size: 0.24, x: 0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 48, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 49, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+         ]
+     }
+
+     {
+       name: 'tag_bundles11',
+       layout:
+         [
+           {id: 50, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 51, size: 0.24, x: 0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 52, size: 0.24, x: 0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 53, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 54, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+         ]
+     }
+
+     {
+       name: 'tag_bundles12',
+       layout:
+         [
+           {id: 55, size: 0.24, x: 0, y: 0, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 56, size: 0.24, x: 0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 57, size: 0.24, x: 0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 58, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
+           {id: 59, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
          ]
      }
   ]

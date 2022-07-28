@@ -815,4 +815,529 @@ material Apriltag/id49
   }
 }
 
+material Apriltag/id50
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id50.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
 
+material Apriltag/id51
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id51.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id52
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id52.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id53
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id53.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id54
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id54.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id55
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id55.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id56
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id56.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id57
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id57.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id58
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id58.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id59
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id59.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id60
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id60.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id61
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id61.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id62
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id62.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id63
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id63.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id64
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id64.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id65
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id65.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id66
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id66.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id67
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id67.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id68
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id68.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id69
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id69.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id70
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id70.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id71
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id71.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id72
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id72.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id73
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id73.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id74
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id74.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id75
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id75.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id76
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id76.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id77
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id77.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id78
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id78.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id79
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id79.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material Apriltag/id80
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture tag3611_id80.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
