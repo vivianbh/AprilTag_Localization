@@ -15,6 +15,7 @@ $ roslaunch rotors_gazebo iris_one_exp.launch
 $ roslaunch apriltag_ros continuous_detection.launch
 
 $ rosrun robot_localization apriltag_coordinate_transformation
+$ rosrun robot_localization imu_coord_enu
 
 // fusion one imu and tags' position
 $ roslaunch robot_localization ekf_localization.launch
