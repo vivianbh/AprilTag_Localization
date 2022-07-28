@@ -37,7 +37,7 @@ standalone_tags:
     {id: 73, size: 0.24, name: "tag73"},
     {id: 74, size: 0.24, name: "tag74"},
     {id: 75, size: 0.24, name: "tag75"},
-    {id: 76, size: 0.24, name: "tag76"},
+    {id: 76, size: 0.24, name: "tag76"}
   ]
 # ## Tag bundle definitions
 # ### Remarks
@@ -143,7 +143,7 @@ tag_bundles:
            {id: 28, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 29, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
          ]
-     }
+     },
 
      {
        name: 'tag_bundles7',
@@ -155,7 +155,7 @@ tag_bundles:
            {id: 33, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 34, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
          ]
-     }
+     },
 
      {
        name: 'tag_bundles8',
@@ -167,7 +167,7 @@ tag_bundles:
            {id: 38, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 39, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
          ]
-     }
+     },
 
      {
        name: 'tag_bundles9',
@@ -179,7 +179,7 @@ tag_bundles:
            {id: 43, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 44, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
          ]
-     }
+     },
 
      {
        name: 'tag_bundles10',
@@ -191,7 +191,7 @@ tag_bundles:
            {id: 48, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 49, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
          ]
-     }
+     },
 
      {
        name: 'tag_bundles11',
@@ -203,7 +203,7 @@ tag_bundles:
            {id: 53, size: 0.24, x: -0.3, y: 0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
            {id: 54, size: 0.24, x: -0.3, y: -0.3, z: 0, qw: 1.0, qx: 0.0, qy: .0, qz: 0.0},
          ]
-     }
+     },
 
      {
        name: 'tag_bundles12',
