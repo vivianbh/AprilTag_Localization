@@ -7,7 +7,7 @@
 		
 		<link name="tag_5">
 
-			<pose>4.01 0 2 -1.5713 0 0</pose>
+			<pose>6 -2 2 -1.5713 0 0</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -128,7 +128,7 @@
  -->
 		<link name="tag_6">
 
-			<pose>4.01 -0.3 2.3 -1.5713 0 0</pose>
+			<pose>6 -2.3 2.3 -1.5713 0 0</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -249,7 +249,7 @@
 
 		<link name="tag_7">
 
-			<pose>4.01 0.3 2.3 -1.5713 0 0</pose>
+			<pose>6 -1.7 2.3 -1.5713 0 0</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -370,7 +370,7 @@
 
 		<link name="tag_8">
 
-			<pose>4.01 0.3 1.7 -1.5713 0 0</pose>
+			<pose>6 -1.7 1.7 -1.5713 0 0</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -491,7 +491,7 @@
 
 		<link name="tag_9">
 
-			<pose>4.01 -0.3 1.7 -1.5713 0 0</pose>
+			<pose>6 -2.3 1.7 -1.5713 0 0</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>

@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
 
-	<model name='tag_bundle4'>
+	<model name='tag_bundle8'>
 
 		<static>True</static>
 		
-		<link name="tag_15">
+		<link name="tag_35">
 
-			<pose>6 2 2 -1.5713 0 0</pose>
+			<pose>-2 6 2 0 0 1.5713</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -30,7 +30,7 @@
 			<kinematic>0</kinematic>
 			<enable_wind>0</enable_wind>
 
-			<visual name='visual_15'>
+			<visual name='visual_35'>
 				<pose frame=''>0 0 0 0 -0 0</pose>
 
 		        <geometry>
@@ -44,7 +44,7 @@
 		        	
 		        	<script>
 		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
-		        		<name>Apriltag/id15</name>
+		        		<name>Apriltag/id35</name>
 		          	</script>
 		          
 		        	<shader type='vertex'>
@@ -61,7 +61,7 @@
 		        <cast_shadows>1</cast_shadows>
 			</visual>
 
-			<collision name='collision_15'>
+			<collision name='collision_35'>
 				<laser_retro>0</laser_retro>
         		<max_contacts>10</max_contacts>
         		<pose frame=''>0 0 0 0 -0 0</pose>
@@ -126,9 +126,9 @@
 		    </collision>
 		</link>
  -->
-		<link name="tag_16">
+		<link name="tag_36">
 
-			<pose>6 1.7 2.3 -1.5713 0 0</pose>
+			<pose>-1.7 6 2.3 0 0 1.5713</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -151,7 +151,7 @@
 			<kinematic>0</kinematic>
 			<enable_wind>0</enable_wind>
 
-			<visual name='visual_16'>
+			<visual name='visual_36'>
 				<pose frame=''>0 0 0 0 -0 0</pose>
 
 		        <geometry>
@@ -165,7 +165,7 @@
 		        	
 		        	<script>
 		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
-		        		<name>Apriltag/id16</name>
+		        		<name>Apriltag/id36</name>
 		          	</script>
 		          
 		        	<shader type='vertex'>
@@ -182,7 +182,7 @@
 		        <cast_shadows>1</cast_shadows>
 			</visual>
 
-			<collision name='collision_16'>
+			<collision name='collision_36'>
 				<laser_retro>0</laser_retro>
         		<max_contacts>10</max_contacts>
         		<pose frame=''>0 0 0 0 -0 0</pose>
@@ -247,9 +247,9 @@
 		    </collision>
 		</link>
 
-		<link name="tag_17">
+		<link name="tag_37">
 
-			<pose>6 2.3 2.3 -1.5713 0 0</pose>
+			<pose>-2.3 6 2.3 0 0 1.5713</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -272,7 +272,7 @@
 			<kinematic>0</kinematic>
 			<enable_wind>0</enable_wind>
 
-			<visual name='visual_17'>
+			<visual name='visual_37'>
 				<pose frame=''>0 0 0 0 -0 0</pose>
 
 		        <geometry>
@@ -286,7 +286,7 @@
 		        	
 		        	<script>
 		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
-		        		<name>Apriltag/id17</name>
+		        		<name>Apriltag/id37</name>
 		          	</script>
 		          
 		        	<shader type='vertex'>
@@ -303,7 +303,7 @@
 		        <cast_shadows>1</cast_shadows>
 			</visual>
 
-			<collision name='collision_17'>
+			<collision name='collision_37'>
 				<laser_retro>0</laser_retro>
         		<max_contacts>10</max_contacts>
         		<pose frame=''>0 0 0 0 -0 0</pose>
@@ -368,9 +368,9 @@
 		    </collision>
 		</link>
 
-		<link name="tag_18">
+		<link name="tag_38">
 
-			<pose>6 2.3 1.7 -1.5713 0 0</pose>
+			<pose>-2.3 6 1.7 0 0 1.5713</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -393,7 +393,7 @@
 			<kinematic>0</kinematic>
 			<enable_wind>0</enable_wind>
 
-			<visual name='visual_18'>
+			<visual name='visual_38'>
 				<pose frame=''>0 0 0 0 -0 0</pose>
 
 		        <geometry>
@@ -407,7 +407,7 @@
 		        	
 		        	<script>
 		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
-		        		<name>Apriltag/id18</name>
+		        		<name>Apriltag/id38</name>
 		          	</script>
 		          
 		        	<shader type='vertex'>
@@ -424,7 +424,7 @@
 		        <cast_shadows>1</cast_shadows>
 			</visual>
 
-			<collision name='collision_18'>
+			<collision name='collision_38'>
 				<laser_retro>0</laser_retro>
         		<max_contacts>10</max_contacts>
         		<pose frame=''>0 0 0 0 -0 0</pose>
@@ -489,9 +489,9 @@
 		    </collision>
 		</link>
 
-		<link name="tag_19">
+		<link name="tag_39">
 
-			<pose>6 1.7 1.7 -1.5713 0 0</pose>
+			<pose>-1.7 6 1.7 0 0 1.5713</pose>
 
 			<inertial>
 	        	<mass>0.1</mass>
@@ -514,7 +514,7 @@
 			<kinematic>0</kinematic>
 			<enable_wind>0</enable_wind>
 
-			<visual name='visual_19'>
+			<visual name='visual_39'>
 				<pose frame=''>0 0 0 0 -0 0</pose>
 
 		        <geometry>
@@ -528,7 +528,7 @@
 		        	
 		        	<script>
 		        		<uri>models://media/materials/scripts/Apriltag.material</uri>
-		        		<name>Apriltag/id19</name>
+		        		<name>Apriltag/id39</name>
 		          	</script>
 		          
 		        	<shader type='vertex'>
@@ -545,7 +545,7 @@
 		        <cast_shadows>1</cast_shadows>
 			</visual>
 
-			<collision name='collision_19'>
+			<collision name='collision_39'>
 				<laser_retro>0</laser_retro>
         		<max_contacts>10</max_contacts>
         		<pose frame=''>0 0 0 0 -0 0</pose>
@@ -612,26 +612,26 @@
 
 		<joint name = "joint_1" type="fixed">
 			<axis xyz="0 0 0" />
-			<parent link="tag_15" />
-			<child link="tag_16" />
+			<parent link="tag_25" />
+			<child link="tag_26" />
 	    </joint>
 
 	    <joint name = "joint_2" type="fixed">
 			<axis xyz="0 0 0" />
-			<parent link="tag_15" />
-			<child link="tag_17" />
+			<parent link="tag_25" />
+			<child link="tag_27" />
 	    </joint>
 
 	    <joint name = "joint_3" type="fixed">
 			<axis xyz="0 0 0" />
-			<parent link="tag_15" />
-			<child link="tag_18" />
+			<parent link="tag_25" />
+			<child link="tag_28" />
 	    </joint>
 
 	    <joint name = "joint_4" type="fixed">
 			<axis xyz="0 0 0" />
-			<parent link="tag_15" />
-			<child link="tag_19" />
+			<parent link="tag_25" />
+			<child link="tag_29" />
 	    </joint>
 
 	</model>
