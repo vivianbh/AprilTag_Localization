@@ -93,42 +93,42 @@
 
     <include>
       <uri>model://ApriltagID68 </uri>
-      <pose>6 -0.55 2 1.5713 0 0</pose>
+      <pose>6 -0.55 2 -1.5713 0 0</pose>
     </include>
 
     <include>
       <uri>model://ApriltagID69 </uri>
-      <pose>6 0.55 2 1.5713 0 0</pose>
+      <pose>6 0.55 2 -1.5713 0 0</pose>
     </include>
 
     <include>
       <uri>model://ApriltagID70 </uri>
-      <pose>0.55 6 2 0 0 1.5713</pose>
+      <pose>0.55 6 2 -1.5713 0 1.5713</pose>
     </include>
 
     <include>
       <uri>model://ApriltagID71 </uri>
-      <pose>-0.55 6 2 0 0 1.5713</pose>
+      <pose>-0.55 6 2 -1.5713 0 1.5713</pose>
     </include>
 
     <include>
       <uri>model://ApriltagID72 </uri>
-      <pose>-6 0.55 2 0 0 3.1426</pose>
+      <pose>-6 0.55 2 -1.5713 0 3.1426</pose>
     </include>
 
     <include>
       <uri>model://ApriltagID73 </uri>
-      <pose>-6 -0.55 2 0 0 3.1426</pose>
+      <pose>-6 -0.55 2 -1.5713 0 3.1426</pose>
     </include>
 
     <include>
       <uri>model://ApriltagID74 </uri>
-      <pose>-0.55 -6 2 0 0 -1.5713</pose>
+      <pose>-0.55 -6 2 -1.5713 0 -1.5713</pose>
     </include>
 
     <include>
       <uri>model://ApriltagID75 </uri>
-      <pose>0.55 -6 2 0 0 -1.5713</pose>
+      <pose>0.55 -6 2 -1.5713 0 -1.5713</pose>
     </include>
 
     <!-- Only one ROS interface plugin is required per world, as any other plugin can connect a Gazebo

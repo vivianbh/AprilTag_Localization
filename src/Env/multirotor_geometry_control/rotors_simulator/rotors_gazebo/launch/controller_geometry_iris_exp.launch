@@ -15,7 +15,7 @@
         <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
 -->
     
-        <node name="waypoint_publisher_file" pkg="rotors_gazebo" type="waypoint_publisher_file" output="screen" args="$(find rotors_gazebo)/resource/waypoints_vertical.txt"/>
+        <node name="waypoint_publisher_file" pkg="rotors_gazebo" type="waypoint_publisher_file" output="screen" args="$(find rotors_gazebo)/resource/waypoints_square_route.txt"/>
         <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
         <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
     
